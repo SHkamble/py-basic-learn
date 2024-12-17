@@ -29,7 +29,7 @@ print(new_dic.get('age'))
 print(sharda_detail)
 print(sharda_detail.get('Address'))
 
-
+####
 my_dict = {'a':1,'b':2,'c':3,'a':1000000}
 print(my_dict)
 # here you will see that If you have a duplicate key, latest value of key will be used!!
@@ -39,3 +39,27 @@ keys = my_dict.keys()
 values=my_dict.values()
 print(keys)
 print(values)
+
+
+# Get all the keys into a list
+
+keys_list = list(keys)
+print(keys_list[0])
+print(keys_list[1])
+print(keys_list[2])
+
+
+my_dict = {'a':1,'b':2,'c':3,'a':95}
+
+# dict - key and value
+
+
+copy_my_dict =my_dict.copy()
+print(copy_my_dict)
+
+
+#my_dict.clear()
+
+print(my_dict)
+print(my_dict.items())
+
